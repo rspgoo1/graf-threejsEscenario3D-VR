@@ -25,7 +25,6 @@
 - [Instalación](#-instalación)
 - [Controles VR](#-controles-vr)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Capturas de Pantalla](#-capturas-de-pantalla)
 - [Desarrolladores](#-desarrolladores)
 - [Licencia](#-licencia)
 
@@ -150,24 +149,6 @@ oxyverse-vr/
 ├── main.js                       # Código JavaScript principal
 └── README.md                     # Este archivo
 ```
-
----
-
-## 📸 Capturas de Pantalla
-
-<div align="center">
-
-### Vista General de la Planta
-![Vista General](https://via.placeholder.com/800x400/0A2E36/00FF88?text=Vista+General+de+la+Planta)
-
-### Interacción con Equipos
-![Raycast](https://via.placeholder.com/800x400/0A2E36/00FF88?text=Sistema+de+Raycast)
-
-### Montacargas Industrial
-![Forklift](https://via.placeholder.com/800x400/0A2E36/00FF88?text=Montacargas+3D)
-
-</div>
-
 ---
 
 ## 👥 Desarrolladores
@@ -247,8 +228,5 @@ Este proyecto es de uso académico. Todos los derechos reservados © 2025
 
 <div align="center">
   
-  ### ⭐ Si te gustó este proyecto, dale una estrella!
-  
-  Hecho con ❤️ y ☕ por el equipo Oxyverse VR
-  
+  ### ⭐ Si te gustó este proyecto, dale una estrella!  
 </div>
