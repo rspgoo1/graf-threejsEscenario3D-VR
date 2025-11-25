@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oxyverse VR</title>
+  <link rel="icon" type="image/png" href="/assets/Images/Icon.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Roboto:wght@400;700&display=swap');
+
+    :root {
+      --primary-color: #00E5FF;
+      --primary-dark: #00BCD4;
+      --text-light: #ffffff;
+      --bg-gradient: linear-gradient(135deg, #071318, #0A1929);
+      --surface: #0D2436;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-light);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    header {
+      padding: 3rem 1rem 1rem;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      font-size: 6.2rem;
+      color: var(--primary-color);
+      letter-spacing: 3px;
+      text-shadow: 0 0 20px rgba(0, 229, 255, 0.6);
+      font-weight: 900;
+    }
+
+    p {
+      color: #B2EBF2;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .games-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      width: 90%;
+      max-width: 600px;
+      margin: 2rem auto;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 1.9rem;
+      font-weight: 600;
+      color: var(--primary-dark);
+      text-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+    }
+
+    .game-button {
+      background: linear-gradient(90deg, #00BCD4, #00E5FF);
+      color: #071318;
+      text-decoration: none;
+      text-align: center;
+      padding: 1.5rem 4.5rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(0, 188, 212, 0.5);
+      transition: transform 0.2s ease-in-out, box-shadow 0.3s, background 0.3s;
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+
+    .game-button:hover {
+      transform: translateY(-3px);
+      background: linear-gradient(90deg, #00E5FF, #18FFFF);
+      box-shadow: 0 6px 20px rgba(0, 229, 255, 0.7);
+    }
+
+    footer {
+      margin-top: auto;
+      background: rgba(7, 19, 24, 0.95);
+      padding: 2rem 1rem;
+      border-top: 2px solid var(--primary-dark);
+      color: #B2EBF2;
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    footer span {
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+
+    @media (max-width: 700px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      .game-button {
+        font-size: 1.1rem;
+        padding: 1rem 2rem;
+      }
+      footer {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>OXYVERSE VR</h1>
+    <p>Experiencia Virtual de una Fabrica de Oxigenación</p>
+  </header>
+
+  <div class="games-container">
+    <h2>Actividad 3.7 Desarrollo de Escenarios VR</h2>
+    <a href="index.html" target="_blank" class="game-button">
+      Iniciar Experiencia VR
+    </a>
+  </div>
+
+  <footer>
+    Desarrollado por:
+    <span>
+      Aguilar Pérez Nahum - 23200135 | 
+      Contla Martínez Kevin Bertín - 23200139 | 
+      Olvera Jiménez Ronaldo - 23200151 | 
+      Santiago Padilla Rubén - 23200158
+    </span>
+  </footer>
+</body>
+</html>
