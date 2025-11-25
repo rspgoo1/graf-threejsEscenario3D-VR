@@ -143,7 +143,7 @@ GRAF-THREEJSESCENARIO3D+VR/
 ├── Power_Plant.glb                  # Modelo 3D: Generador eléctrico
 ├── Warehouse_Shelving_Unit.glb      # Modelo 3D: Estantería de almacén
 │
-├── Audio/                           # Archivos de audio informativos
+├── Audio/                           # Archivos de audio
 │   ├── After_Cooler.mp3
 │   ├── Air_Compressor.mp3
 │   ├── Air_Expander.mp3
