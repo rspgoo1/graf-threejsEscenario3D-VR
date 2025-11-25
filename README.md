@@ -127,27 +127,44 @@ Este proyecto fue desarrollado como parte de la **Actividad 3.7: Desarrollo de E
 
 ## 📁 Estructura del Proyecto
 ```
-oxyverse-vr/
-├── assets/
-│   ├── Audio/                    # Archivos de audio (.mp3)
-│   │   ├── Air_Compressor.mp3
-│   │   ├── Forklift.mp3
-│   │   ├── Industrial_Robot.mp3
-│   │   └── ...
-│   ├── Images/                   # Imágenes e íconos
-│   │   └── Icon.png
-│   ├── *.glb                     # Modelos 3D
-│   │   ├── Oxygenation.glb
-│   │   ├── Forklift.glb
-│   │   ├── industrial_robot.glb
-│   │   └── ...
-│   └── industrial_sunset_puresky_1k.hdr  # Mapa HDRI
-├── build/                        # Three.js build
-├── jsm/                          # Three.js modules
-├── index.html                    # Aplicación VR principal
-├── inicio.html                   # Página de bienvenida
-├── main.js                       # Código JavaScript principal
-└── README.md                     # Este archivo
+GRAF-THREEJSESCENARIO3D+VR/
+│
+├── index.html                           # Aplicación VR principal con loader
+├── indexInicio.html                     # Página de bienvenida
+├── main.js                              # Lógica principal de la aplicación VR
+│
+└── assets/                              # Recursos del proyecto
+│
+├── Forklift.glb                     # Modelo 3D: Montacargas
+├── industrial_robot.glb             # Modelo 3D: Robot industrial
+├── industrial_sunset_puresky_1k.hdr # Mapa HDRI para iluminación
+├── Oxygenation.glb                  # Modelo 3D: Planta de oxigenación (visual)
+├── Oxygenation_Collidors.glb        # Modelo 3D: Colisiones de la planta
+├── Power_Plant.glb                  # Modelo 3D: Generador eléctrico
+├── Warehouse_Shelving_Unit.glb      # Modelo 3D: Estantería de almacén
+│
+├── Audio/                           # Archivos de audio informativos
+│   ├── After_Cooler.mp3
+│   ├── Air_Compressor.mp3
+│   ├── Air_Expander.mp3
+│   ├── Air_Filter.mp3
+│   ├── Carbon_Dioxide_Drying_Unit.mp3
+│   ├── Cold_Box.mp3
+│   ├── Cylinder_Filling_Ramp.mp3
+│   ├── Forklift.mp3
+│   ├── Freon_Cooler.mp3
+│   ├── Industrial_Robot.mp3
+│   ├── Liquid_Oxygen_Pump.mp3
+│   ├── Moisture_Absorber.mp3
+│   ├── Nitrogen_Cooler.mp3
+│   ├── Oil_Absorber.mp3
+│   ├── Power_Plant.mp3
+│   ├── Purger.mp3
+│   ├── Regeneration_Heater.mp3
+│   └── Warehouse_Shelving_Unit.mp3
+│
+└── Images/                          # Recursos gráficos
+└── Icon.png                     # Ícono de la aplicación
 ```
 ---
 
